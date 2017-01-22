@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Marcellus+SC');
+
+$break-large: 960px;
+$break-small: 425px;
+
+$white: #FFFFFF;
+$gray: #bbbbbb;
+$light-gray: #e1e1e1;
+$black: #141414;
+
+$red: #ff2b2b;
+$green: #00dc00;
+
+$spacing: 8px;
+$third: 33.3%;
+
+$font-large: 36px;
+$font-medium: 24px;
+$font-standard: 18px;
+$font-small: 16px;
+$font-smallest: 14px;
+
+* {
+  color: $black;
+}
+
+h1 {
+  font-family: 'Marcellus SC', serif;
+  font-size: $font-large;
+
+  @media screen and (max-width: $break-small) {
+    line-height: $font-large;
+  }
+}
+
+h2, h3, p, a {
+  font-family: 'Lato', sans-serif;
+  font-size: $font-standard;
+
+  .-red {
+    color: $red;
+  }
+
+  .-green {
+    color: $green;
+  }
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  width: 90%;
+  margin: auto;
+  background-color: $light-gray;
+  text-align: center;
+  margin-bottom: $spacing;
+
+  p {
+    font-family: 'Marcellus SC', serif;
+  }
+
+  &.-white {
+    background-color: $white;
+  }
+}
+
+@import './reset';
+@import './layout';
+@import './article';
