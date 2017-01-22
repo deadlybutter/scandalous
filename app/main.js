@@ -2,11 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router';
 
-import Page from './pages/Page';
-import Home from './pages/Home';
-// import Action from './pages/Action';
+import Page from './js/pages/Page';
+import Home from './js/pages/Home';
 
-if (location.hostname === "localhost") import style from '../scss/main.scss';
+import style from './main.scss';
 
 render((
   <Router history={browserHistory}>
