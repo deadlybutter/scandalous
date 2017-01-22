@@ -22,6 +22,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "forky": "^0.3.0",
     "keypunch": "^1.0.5",
+    "node-sass": "^4.3.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^3.0.0",
