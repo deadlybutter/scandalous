@@ -27,10 +27,6 @@ $font-smallest: 14px;
 h1 {
   font-family: 'Marcellus SC', serif;
   font-size: $font-large;
-
-  @media screen and (max-width: $break-small) {
-    line-height: $font-large;
-  }
 }
 
 h2, h3, p, a {

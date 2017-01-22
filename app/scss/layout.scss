@@ -5,6 +5,11 @@ header {
 
   h1 {
     font-size: 64px;
+
+    @media screen and (max-width: $break-small) {
+      font-size: $font-large;
+      line-height: $font-large;
+    }
   }
 
   p {
