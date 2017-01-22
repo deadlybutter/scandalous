@@ -35,6 +35,10 @@
     height: 32em;
     background-position: center;
     margin: $spacing 0;
+
+    @media screen and (max-width: $break-small) {
+      height: 16em;
+    }
   }
 }
 
