@@ -6,7 +6,7 @@ import Page from './pages/Page';
 import Home from './pages/Home';
 // import Action from './pages/Action';
 
-import style from '../scss/main.scss';
+if (location.hostname === "localhost") import style from '../scss/main.scss';
 
 render((
   <Router history={browserHistory}>
